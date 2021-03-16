@@ -82,6 +82,7 @@ const FeaturesTiles = ({
   ]
 
   let listOfServices = services.map((service, i) => <ServiceIconCard {...service} key={i} />)
+
   return (
     <section
       {...props}
